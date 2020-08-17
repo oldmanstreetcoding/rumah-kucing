@@ -1,0 +1,542 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lucida Console", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-purr-theme {
+    background-color: sandybrown;
+}
+
+.text-purr-theme {
+    color: tomato;
+}
+
+.title-image {
+    width: 60px;
+    margin-bottom: -20px;
+}
+
+#title-kontak-image {
+    margin-bottom: 10px;
+}
+
+.text-purr-mute {
+    color: grey;
+}
+
+#wall-image {
+    width: 100%;
+    margin-bottom: -10px;
+    height: 43vw;
+}
+
+.flex-container-header {
+    display: flex;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+#flex-box-header, #content, #kontak {
+    width:90%;
+    margin: auto;
+}
+
+#flex-box-logo {
+    flex-grow: 1;
+    text-align: left;
+}
+
+#flex-box-nav {
+    flex-grow: 2;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+#box-nav-small {
+    display: none;
+}
+
+.btn-nav {
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.btn-active, .btn-nav:hover {
+    background-color: white;
+}
+
+#logo-image {
+    width: 50px;
+}
+
+#logo-text-d, #logo-text-m{
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#logo-text-m {
+    display: none;
+}
+
+.d-logo {
+    float: left;
+}
+
+.flex-container-beranda {
+    display: flex;
+}
+
+#flex-box-hero {
+    flex-basis: 30%;
+    padding-top: 30px;
+}
+
+#flex-box-greeting {
+    flex-basis: 70%;
+    padding: 20px;
+}
+
+#hero-image {
+    width: 89%;
+    height: auto;
+}
+
+#box-text-greeting {
+    margin-top: 50px;
+}
+
+#text-greeting {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+#text-greeting2 {
+    font-size: 2vw;
+}
+
+#gplay-icon {
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    overflow: auto;
+    width: 15vw;
+}
+
+#gplay-image {
+    width: 2vw;
+    float: left;
+}
+
+#gplay-text {
+    float: right;
+    text-align: left;
+    font-size: 1.4vw;
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+}
+
+.box-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#layanan, #team {
+    background-color: rgb(243, 238, 234);
+}
+
+.flex-container-layanan, .flex-container-testimoni {
+    display: flex;
+    margin-top: 30px;
+}
+
+.flex-container-testimoni {
+    text-align: center;
+}
+
+.flex-container-layanan-left {
+    text-align: left;
+}
+
+.flex-container-layanan-right {
+    text-align: right;
+}
+
+.flex-box-imglay {
+    flex-basis: 25%;
+}
+
+.flex-box-textlay {
+    flex-basis: 75%;
+    margin-top: -20px;
+}
+
+.box-article {
+    margin-top: 30px;
+    border: 2px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.text-lay {
+    font-size: 18px;
+    
+}
+
+.layanan-image {
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.flex-box-testimoni {
+    flex-basis: 33%;
+    margin-right: 20px;
+}
+
+.testi-image {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.divider {
+    border: 1px dashed grey;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.star-image {
+    width: 10vw;
+    margin-bottom: 20px;
+}
+
+.flex-container-team {
+    display: flex;
+    margin-top: 30px;
+}
+
+#team {
+    text-align: center;
+}
+
+.flex-box-team {
+    flex-grow: 1;
+}
+
+.card-team {
+    margin-right: 20px;
+    padding: 10px;
+    margin: auto;
+}
+
+.team-image {
+    width: 12vw;
+    height: 16vw;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-bottom: -15px;
+}
+
+.btn-hover:hover {  
+    box-shadow: 0 0 2px 3px salmon;
+    cursor: pointer;
+}
+
+#menu-image {
+    width:30px;
+    margin-top: 10px;
+}
+
+#box-nav-m {
+    display: none;
+}
+
+.kontak-section {
+    float: left;
+    width: 31%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-right: 20px;
+    border: 2px solid grey;
+}
+
+#box-kontak-section {
+    overflow: auto;
+}
+
+#kontak {
+    overflow: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#map-image {
+    width: 100%;
+}
+
+.flex-container-form {
+    display: flex;
+    margin-top: 15px;
+}
+
+.flex-box-form-label {
+    flex-basis: 20%;
+    text-align: left;
+}
+
+.flex-box-form-input {
+    flex-basis: 80%;
+}
+
+.form-input {
+    width: 100%;
+    height: 40px;
+}
+
+#btn-kirim-pesan {
+    border-radius: 5px;
+    background-color: salmon;
+    color: white;
+    border: 0 solid grey;
+    padding: 10px;
+    float: right;
+    width: 100px;
+}
+
+#btn-kirim-pesan:hover {
+    background-color: grey;
+    color:black;
+    cursor: pointer;
+}
+
+#profil-image {
+    width: 7.5vw;
+    height: 7.5vw;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 18px;
+}
+
+#socmed-image {
+    width: 10vw;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#goTop {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: tomato; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px;
+    opacity: 0.8;
+}
+  
+#goTop:hover {
+    background-color: #555; 
+}
+
+#box-mbutton {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    overflow: auto;
+}
+
+#box-nav-m:hover {
+    cursor: pointer;
+}
+
+#drop-nav-m {
+    display: none;
+    padding: 10px;
+    background-color: sandybrown;
+}
+
+.nav-li-m {
+    margin-bottom: 15px;
+}
+
+.nav-a-m {
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* khusus ukuran screen saya sendiri sampai dengan tampilan iPad */
+
+@media screen and (max-width: 1100px) {
+
+    #flex-box-header, #content, #kontak {
+        width:95%;
+    }
+
+    #box-nav-d {
+        display: none;
+    }
+
+    #box-nav-m {
+        display: inline;
+        background-color: transparent;
+        border: none;
+    }
+
+    #gplay-icon {
+        width: 100%;
+    }
+
+    #gplay-image {
+        width: 5vw;
+    }
+
+    #gplay-text {
+        font-size: 3vw;
+    }
+
+    .box-title {
+        padding-top: 10px;
+    }
+
+    .text-lay {
+        font-size: 16px;
+    }
+
+    .text-lay-title {
+        font-size: 2vw;
+    }
+
+    .kontak-section {
+        clear: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #profil-image {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    #socmed-image {
+        width: 20vw;
+    }
+
+}
+
+/* Khusus tampilan screen ukuran HP 400px*/
+
+@media screen and (max-width: 400px) {
+    #logo-text-d {
+        display: none;
+    }
+
+    #logo-text-m {
+        display: inline;
+    }
+
+    .flex-container-beranda, .flex-container-layanan, .flex-container-testimoni {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #hero-image {
+        width: 30%;
+    }
+
+    #box-text-greeting {
+        margin-top: -20px;
+    }
+
+    #text-greeting2 {
+        font-size: 12px;
+    }
+
+    .layanan-image {
+        display: none;
+    }
+
+    .testi-image {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .flex-box-team h3 {
+        font-size: 12px;
+    }
+
+    .text-lay {
+        font-size: 14px;
+    }
+
+    .box-title {
+        font-size: 20px;
+    }
+
+    .text-lay-title {
+        font-size: 16px;
+    }
+
+    #profil-image {
+        width: 18vw;
+        height: 18vw;
+    }
+
+    #gplay-text {
+        font-size: 4vw;
+    }
+
+    .divider {
+        display: block;
+    }
+
+    .title-image {
+        width: 40px;
+    }
+}
